@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.lujstn.leave-meeting-reminder</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>[ABSOLUTE_PATH_TO_THIS_DIRECTORY]/script.py</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/tmp/com.lujstn.leave-meeting-reminder.err</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/com.lujstn.leave-meeting-reminder.out</string>
+</dict>
+</plist>
